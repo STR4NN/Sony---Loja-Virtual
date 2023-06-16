@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(46, 29, 199);
+    color: white;
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+
+a {
+    letter-spacing: 4px;
+
+    color: white;
+    margin: 10px;
+    margin-left: 40px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+a:hover {
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 90%;
+}
+
+img {
+    display: inline-block;
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+#pesquisa {
+    margin-left: 500px;
+    height: 40px;
+    width: 500px;
+    outline: none;
+    transition: 1.4s;
+    border: 0;
+    padding-left: 8px;
+transition: .4s;
+}
+
+#pesquisa:hover {
+
+  
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    background-color: white;
+}
+
+button:hover {
+    font-size: 120%;
+    color: rgb(0, 26, 255);
+}
+
+.pesquisa-botao:hover{
+    
+}
